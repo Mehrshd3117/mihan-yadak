@@ -1777,8 +1777,8 @@ function Header() {
                 </div>
 
                 {[
-                  { href: "/aboutUs", key: "menu.about" },
-                  { href: "/contactUs", key: "menu.contact" },
+                  { href: "/about-us", key: "menu.about" },
+                  { href: "/contact-us", key: "menu.contact" },
                   { href: "/inventions", key: "menu.inventions" },
                 ].map(({ href, key }) => (
                   <Link
