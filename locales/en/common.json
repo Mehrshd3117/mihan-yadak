@@ -1,0 +1,645 @@
+{
+  "header": {
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "inventions": "Inventions",
+    "search_results": "Search Results",
+    "clear": "Clear",
+    "searching": "Searching…",
+    "no_results": "No results found",
+    "suggestions": "Suggestions",
+    "search_placeholder": "Search...",
+    "product_list": "Product List"
+  },
+  "menu": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "inventions": "Inventions"
+  },
+  "category": {
+    "products": "All Products",
+    "boobins": "Types of Bobbins",
+    "electric-device": "Types of Electric Devices",
+    "transistor": "Types of Transistors",
+    "chargers": "Types of Chargers",
+    "pickups": "Types of Pickups",
+    "wirings": "Types of Wirings",
+    "connectors": "Types of Connectors",
+    "brushes": "Types of Brushes",
+    "autoGuide": "Types of Auto Guides",
+    "battery": "Electronic Battery Replacement"
+  },
+  "hero": {
+    "title_brand_part1": "Mihan Yadak",
+    "title_brand_part2": "Garmsar",
+    "description": "Mihan Yadak Garmsar Industrial Manufacturing Company is the first and largest producer of various motorcycle electrical parts in Iran, with over 25 years of experience, leveraging the expertise of skilled engineers, advanced laboratory equipment, and consultation from experienced technicians.",
+    "stats": "🚩 Over 31 years of experience | ⚙️ Producing over 50 types of parts | 🌍 International exports",
+    "image_src": "/images/hero-section/heroImage.webp",
+    "image_alt": "Mihan Yadak Garmsar electric bobbin",
+    "button_products": "View Products",
+    "button_contact": "Contact Us",
+    "highlight_1": "Holds 9 international patents",
+    "highlight_2": "Manufacturer of pickups, transistors, chargers, and more",
+    "highlight_3": "Using top-grade materials",
+    "highlight_4": "Branches across the country"
+  },
+  "amazing": {
+    "schemaName": "Mihan Yadak Garmsar Company Features",
+    "title": "Mihan Yadak Garmsar Features",
+    "subtitle": "Quality, innovation, and support are our core values.",
+    "feature1": {
+      "title": "Best Quality",
+      "description": "We take pride in our production quality and always deliver the best.",
+      "extra": "All our products undergo rigorous quality control to maintain your trust."
+    },
+    "feature2": {
+      "title": "Top-notch Raw Materials",
+      "description": "Using premium raw materials is the basis of our production.",
+      "extra": "Our materials are sourced from reputable domestic and international suppliers."
+    },
+    "feature3": {
+      "title": "Global Patents",
+      "description": "Mihan Yadak leads in industrial innovation with 9 patents.",
+      "extra": "We are at the forefront of invention with cutting-edge technology."
+    },
+    "feature4": {
+      "title": "Dedicated Support",
+      "description": "Our professional support team is always by your side.",
+      "extra": "With quick response times, we are always ready to serve you."
+    }
+  },
+  "trendingProducts": {
+    "title": "Trending Products",
+    "qualityGuarantee": {
+      "title": "Quality Guarantee",
+      "description": "All our products undergo strict quality control and meet high standards."
+    },
+    "packaging": {
+      "title": "Premium & Professional Packaging",
+      "description": "Your orders are packaged in the best possible way."
+    },
+    "badge": {
+      "bestSeller": "Best Seller"
+    },
+    "detailsButton": "View Details",
+    "detailsButtonAria": "View details of {{title}}"
+  },
+  "companyProfile": {
+    "schemaName": "Mihan Yadak Garmsar Company",
+    "title": "Mihan Yadak Garmsar Company",
+    "description": "With experienced staff, quality production, and the best raw materials to ensure customer satisfaction.",
+    "features": {
+      "feature1": {
+        "title": "Customer Relations",
+        "desc": "Professional support and after-sales service"
+      },
+      "feature2": {
+        "title": "R&D",
+        "desc": "Utilizing cutting-edge global technology"
+      },
+      "feature3": {
+        "title": "Premium Raw Materials",
+        "desc": "Employing the highest quality raw materials"
+      }
+    },
+    "achievements": {
+      "ach1": {
+        "value": "30+",
+        "label": "Years of Experience"
+      },
+      "ach2": {
+        "value": "500+",
+        "label": "Regular Clients"
+      },
+      "ach3": {
+        "value": "100%",
+        "label": "Customer Satisfaction"
+      },
+      "ach4": {
+        "value": "24/7",
+        "label": "Support"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Questions that are commonly asked by our customers",
+    "noAnswerTitle": "No answers found",
+    "noAnswerDesc": "The question you asked currently has no answer. Please contact us.",
+    "items": [
+      {
+        "question": "What products does Mihan Badak Garmsar offer?",
+        "answer": "Our company manufactures various types of bobbins, wiring systems, regulators, and transistors with the highest quality. All products are produced according to international standards."
+      },
+      {
+        "question": "How can I ensure the quality of your products?",
+        "answer": "All our products come with a 24-month quality guarantee. We use the finest raw materials and the most advanced production lines. Laboratory samples are also periodically inspected."
+      },
+      {
+        "question": "What is the delivery time for the products?",
+        "answer": "Delivery time varies depending on the product and order quantity:\n\n- Ready products: 1–3 business days\n- Custom products: 5–7 business days\n- Bulk orders: upon coordination\n\nYou can always contact our sales department for more details."
+      },
+      {
+        "question": "Can I visit your production workshop?",
+        "answer": "Yes, with prior coordination, you can visit our production lines. Visits are conducted on Sundays and Tuesdays every week from 9:00 to 12:00, observing all safety protocols."
+      },
+      {
+        "question": "What are the warranty conditions for your products?",
+        "answer": "Our product warranty includes the following:\n\n✅ 12-month unconditional replacement warranty\n✅ 10 years after-sales service\n✅ 24/7 technical support\n✅ Annual free inspection\n\nRequired documents: Purchase invoice and warranty stamp"
+      },
+      {
+        "question": "Can I visit your production workshop?",
+        "answer": "Yes, with prior coordination, you can visit our production lines. Visits are conducted on Sundays and Tuesdays every week from 9:00 to 12:00, observing all safety protocols."
+      },
+      {
+        "question": "How can I ensure the quality of your products?",
+        "answer": "All our products come with a 24-month quality guarantee. We use the finest raw materials and the most advanced production lines. Laboratory samples are also periodically inspected."
+      }
+    ]
+  },
+  "hero-faq": {
+    "brand": "Mihan Yadak Garmsar",
+    "prefix": "Where",
+    "highlight": "Power",
+    "suffix": "is made without boasting!",
+    "subtitle": "A reliable choice for those who want quality, support, and durability together.",
+    "contact": "Contact Us"
+  },
+  "managementTeam": {
+    "title": "Mihan Yadak Board of Directors",
+    "description": "The leadership of Mihan Yadak consists of three committed and specialized managers who, with knowledge, experience, and a forward-looking approach, guide the growth and excellence of this brand.",
+    "members": [
+      {
+        "name": "Haj Ali Mihandost",
+        "position": "CEO",
+        "description": "With a strategic management vision, responsible for the guidance and macro policy-making of the organization.",
+        "image": "/images/partner/ali-mihandost.webp"
+      },
+      {
+        "name": "Javad Mihandost",
+        "position": "Commercial Director",
+        "description": "Market development and business communications specialist, responsible for expanding domestic and international partnerships.",
+        "image": "/images/partner/javad-mihandost.webp"
+      },
+      {
+        "name": "Mohammad Mihandost",
+        "position": "Factory Manager",
+        "description": "Direct overseer of production and quality, responsible for process optimization and ensuring product standards.",
+        "image": "/images/partner/mohammad-mihandost.webp"
+      }
+    ],
+    "bottomDescription": "The combination of experience, commitment, and expertise of this team guarantees sustainable progress and customer satisfaction of Mihan Yadak."
+  },
+  "customerReviews": {
+    "title": "Customer Reviews",
+    "subtitle": "A glimpse of feedback from our loyal customers who have guided us on the path to excellence.",
+    "quote": "«We’re here to define quality—from our customers’ perspective.»",
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Ali Mohammadi",
+        "position": "Technical Manager – Electronic Industries Co.",
+        "comment": "The product quality was excellent. The 24/7 support team answered our technical questions and provided full guidance in choosing the best product.",
+        "rating": 5,
+        "ratingAria": "Rating 5 out of 5"
+      },
+      {
+        "id": 2,
+        "name": "Fatemeh Rezaei",
+        "position": "Purchasing Manager – Industrial Equipment Store",
+        "comment": "They provided fast delivery and professional packaging. After six months of use, the products had no issues, and we’re truly satisfied with the purchase.",
+        "rating": 4,
+        "ratingAria": "Rating 4 out of 5"
+      },
+      {
+        "id": 3,
+        "name": "Mohammad Hosseini",
+        "position": "Supervising Engineer – National Industrial Project",
+        "comment": "The best supplier I’ve ever worked with. They offered excellent technical consultation before purchase and superb after-sales support.",
+        "rating": 5,
+        "ratingAria": "Rating 5 out of 5"
+      }
+    ]
+  },
+  "invention": {
+    "title": "Industrial IP Registration",
+    "altPrefix": "Invention",
+    "modalAlt": "Enlarged View",
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "reset": "Reset",
+    "close": "Close"
+  },
+  "processSteps": {
+    "hero": {
+      "brand": "Mihan Yadak Garmsar ;",
+      "tagline": "Industry’s trust, professionals’ choice!",
+      "subtitle": "A mark of credibility and standing in the market among manufacturers and vendors."
+    },
+    "section": {
+      "title": "Product Manufacturing Process at Mihan Yadak",
+      "description": "The stages of part production at Mihan Yadak Garmsar"
+    },
+    "steps": [
+      {
+        "title": "Request Raw Materials",
+        "description": "Place an order for the necessary raw materials to begin the production process"
+      },
+      {
+        "title": "Deliver to Production Line",
+        "description": "Transfer raw materials to production lines for processing"
+      },
+      {
+        "title": "Component Manufacturing",
+        "description": "Fabricate the desired parts using advanced equipment"
+      },
+      {
+        "title": "Send to Warehouse for Packaging",
+        "description": "Move the manufactured parts to the warehouse for final packaging"
+      },
+      {
+        "title": "Hand Over to Sales Unit",
+        "description": "Deliver the final packaged products to the sales team for distribution"
+      }
+    ]
+  },
+  "footer": {
+    "about": {
+      "title": "About Mihan Yadak Garmsar",
+      "desc": "Mihan Yadak Garmsar Company is the first and largest manufacturer of electric motorcycle parts in Iran with over 31 years of experience. Leveraging technical know-how, 9 registered national patents, and collaboration with technical-vocational institutes, it has taken effective steps in training mechanics and advancing the motorcycle industry."
+    },
+    "links": {
+      "title": "Quick Links",
+      "items": [
+        {
+          "text": "Home",
+          "href": "/"
+        },
+        {
+          "text": "Products",
+          "href": "/products"
+        },
+        {
+          "text": "Inventions",
+          "href": "/inventions"
+        },
+        {
+          "text": "Contact Us",
+          "href": "/contact-us"
+        },
+        {
+          "text": "About Us",
+          "href": "/about-us"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "address": "Tehran, Sales Office: Molavi St., before Razi Square, Bahman Passage, 3rd Floor, Unit",
+      "phone": "0982334552055",
+      "email": "info@MihanYadakGarmsar.ir",
+      "workDays": "Saturday to Wednesday",
+      "workHoursSeparator": "to"
+    },
+    "location": {
+      "title": "Our Location",
+      "caption": "Head Office Address"
+    },
+    "copyright": {
+      "text1": "All rights and privileges of this website belong to",
+      "companyName": "Mihan Yadak",
+      "text1Suffix": ". Any use of the website content is subject to legal action.",
+      "developerPrefix": "Developed by Mehrrsin team"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "A Recognized Name, Proven Quality",
+      "description": "Mihan Yadak Garmsar Industrial Manufacturing Company, the first and largest producer of electrical parts for various motorcycles in Iran with over a quarter of a century of experience and utilizing the expertise of capable engineers, with the use of advanced laboratory equipment and facilities and consultation with experienced and creative repairmen throughout Iran, is committed to customer satisfaction, effectiveness in improving quality, and the growth of Iran's motorcycle industry. Under the ownership and management of Haj Ali Mihan Doost in Garmsar County, Semnan Province, the company operates with the efforts of its capable production line personnel. Mihan Yadak Garmsar is proud to have obtained <span class='font-semibold text-orange-500'>9 invention patents</span> in the motorcycle industry. With strong determination, the company has partnered with major Iranian companies such as Iran Khodro, Saipa, and Butan, and after extensive research and constructive interactions with the Technical and Vocational Training Organization, it has provided specialized training and scientific troubleshooting for new motorcycles to repairmen across the country. With the slogan <span class='font-semibold italic text-orange-500'>'A Recognized Name, Proven Quality'</span> and holder of 9 invention patents in Iran's motorcycle industry, the company has taken a new step in cooperation with the Technical and Vocational Training Organization and the Chamber of Guilds to enhance the technical knowledge of motorcycle repairmen. By equipping more than 70 training workshops in vocational training centers in counties and developing competency standards for training (specialized familiarity and troubleshooting of electrical and electronic systems and the operation of fuel injection systems for Honda CDI 125 motorcycles and AC/DC Viu project), and issuing related training certificates using the expertise of capable technical experts (engineers and experienced repairmen), the company is currently training motorcycle repairmen throughout the country. In this regard, all repairmen and sellers of high-quality Mihan Yadak products are organized and become members of the large family of Mihan Yadak Garmsar Industrial Manufacturing Company under the Mechanized Mihan Plan."
+    },
+    "features": [
+      {
+        "icon": "BadgeCheck",
+        "title": "Registered Innovations",
+        "description": "Holder of 9 invention patents in the motorcycle industry"
+      },
+      {
+        "icon": "Wrench",
+        "title": "Advanced Equipment",
+        "description": "Utilizing state-of-the-art production lines and laboratories"
+      },
+      {
+        "icon": "Users",
+        "title": "Experienced Team",
+        "description": "Collaboration with skilled engineers and technicians"
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Creative Solutions",
+        "description": "Innovative approaches to complex electrical issues"
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Quality Assurance",
+        "description": "Rigorous testing for durability and performance"
+      },
+      {
+        "icon": "School",
+        "title": "Specialized Training",
+        "description": "Expert-led workshops nationwide"
+      }
+    ],
+    "slogan": {
+      "part1": "Mihan Yadak",
+      "part2": "; Where",
+      "part3": "Electricity",
+      "part4": "Gives Meaning to Motion!",
+      "subtitle": "A reliable choice for those who want quality, support, and durability together."
+    }
+  },
+  "video": {
+    "title": "About Mihan Yadak Garmsar",
+    "description": {
+      "main": "Mihan Yadak Garmsar Company is the first and largest manufacturer of electric motorcycle parts in Iran with over 25 years of experience. Relying on technical expertise, 9 registered national patents, and collaboration with vocational training centers, we’ve taken effective steps in educating mechanics and advancing the motorcycle industry.",
+      "note": "Below you can watch our introduction video showcasing the production processes and training programs."
+    },
+    "videoSrc": "/images/video-section/about.mp4",
+    "posterSrc": "/images/video-section/poster.webp"
+  },
+  "gallery": {
+    "title": "Exhibition Gallery",
+    "subTitle": "Here you can browse images from our past exhibitions",
+    "zoomHint": "Click to zoom",
+    "buttons": {
+      "resetZoom": "Reset zoom",
+      "close": "Close"
+    },
+    "sections": {
+      "exhibition1403": {
+        "title": "Exhibition 1403",
+        "images": [
+          "/images/exhibition/03/403-exhibition-1.webp",
+          "/images/exhibition/03/403-exhibition-2.webp",
+          "/images/exhibition/03/403-exhibition-3.webp",
+          "/images/exhibition/03/403-exhibition-4.webp"
+        ]
+      },
+      "exhibition1396": {
+        "title": "Exhibition 1396",
+        "images": [
+          "/images/exhibition/96/96-exhibition-1.webp",
+          "/images/exhibition/96/96-exhibition-2.webp",
+          "/images/exhibition/96/96-exhibition-3.webp",
+          "/images/exhibition/96/96-exhibition-4.webp"
+        ]
+      },
+      "exhibition1395": {
+        "title": "Exhibition 1395",
+        "images": [
+          "/images/exhibition/95/95-exhibition-(1).webp",
+          "/images/exhibition/95/95-exhibition-(2).webp",
+          "/images/exhibition/95/95-exhibition-(3).webp",
+          "/images/exhibition/95/95-exhibition-(4).webp"
+        ]
+      },
+      "exhibitionIsfahan": {
+        "title": "Isfahan Exhibition",
+        "images": [
+          "/images/exhibition/isfahan/isfahan-exhibition-1.webp",
+          "/images/exhibition/isfahan/isfahan-exhibition-2.webp",
+          "/images/exhibition/isfahan/isfahan-exhibition-3.webp",
+          "/images/exhibition/isfahan/isfahan-exhibition-4.webp"
+        ]
+      }
+    }
+  },
+  "collaboration": {
+    "title": "Proud Collaboration with Iran Technical and Vocational Training Organization",
+    "subTitle": "This collaboration testifies to our commitment to quality, education, and skill development.",
+    "features": [
+      {
+        "icon": "Briefcase",
+        "title": "Work Experience",
+        "description": "Collaboration with the reputable Iran Technical and Vocational Training Organization is a major step in our growth journey."
+      },
+      {
+        "icon": "Award",
+        "title": "Credibility & Pride",
+        "description": "This collaboration reflects our quality and dedication in delivering specialized services."
+      },
+      {
+        "icon": "Users",
+        "title": "Teamwork",
+        "description": "We are partnering with a professional and expert team from Technical and Vocational Training Organization."
+      }
+    ],
+    "gallery": {
+      "hint": "Click to view details",
+      "images": [
+        {
+          "src": "/images/collaboration/technical-degree-1.webp",
+          "alt": "Technical-Vocational Agreement 1"
+        },
+        {
+          "src": "/images/collaboration/technical-degree-2.webp",
+          "alt": "Technical-Vocational Agreement 2"
+        },
+        {
+          "src": "/images/collaboration/technical-degree-3.webp",
+          "alt": "Technical-Vocational Agreement 3"
+        },
+        {
+          "src": "/images/collaboration/technical-degree-4.webp",
+          "alt": "Technical-Vocational Agreement 4"
+        }
+      ],
+      "modal": {
+        "ariaLabel": "View enlarged image",
+        "buttons": {
+          "zoomIn": "Zoom In",
+          "zoomOut": "Zoom Out",
+          "resetZoom": "Reset Zoom",
+          "close": "Close Modal"
+        }
+      }
+    }
+  },
+  "contact": {
+    "section": {
+      "highlight": "!Mihan Yadak Garmsar",
+      "title": "The Beating Heart of Your Motorcycle",
+      "description": ".To get in touch with the Mihan Yadak Garmsar team, you can use one of the following methods"
+    },
+    "emailList": {
+      "title": "Official Company Emails",
+      "emails": [
+        "mihan.store1402@gmail.com",
+        "mihanyadak1401@gmail.com"
+      ]
+    },
+    "branches": [
+      {
+        "title": "Head Office & Sales",
+        "address": "Tehran, Molavi St., before Razi Square, Bahman Passage, 3rd Floor, Unit 310",
+        "phones": [
+          "55369166"
+        ],
+        "fax": null
+      },
+      {
+        "title": "Store",
+        "address": "Tehran, Molavi St., before Razi Square, next to Bahman Passage, Mikhchi Alley, No. 50",
+        "phones": [
+          "55399341",
+          "55399342"
+        ],
+        "fax": null
+      },
+      {
+        "title": "Semnan – Garmsar",
+        "address": "Semnan, Garmsar, Industrial Town",
+        "phones": [
+          "34552124",
+          "34552300",
+          "34552301-023"
+        ],
+        "fax": "34552072 – 34552310-023"
+      }
+    ]
+  },
+  "contactForm": {
+    "heading": "Contact Us Form",
+    "fields": {
+      "fullName": {
+        "label": "Full Name",
+        "validation": {
+          "required": "Please enter at least 3 characters"
+        }
+      },
+      "email": {
+        "label": "Email",
+        "validation": {
+          "required": "Please enter a valid email address"
+        }
+      },
+      "phone": {
+        "label": "Phone Number",
+        "validation": {
+          "required": "Please enter a valid mobile number"
+        }
+      },
+      "subject": {
+        "label": "Subject",
+        "validation": {
+          "required": "Please enter at least 8 characters"
+        }
+      },
+      "message": {
+        "label": "Message",
+        "validation": {
+          "required": "Please enter at least 10 characters"
+        }
+      },
+      "recaptcha": {
+        "validation": {
+          "required": "Please complete the CAPTCHA"
+        }
+      }
+    },
+    "buttons": {
+      "submit": "Send Message",
+      "submitting": "Submitting..."
+    },
+    "toast": {
+      "success": "✅ Your message was sent successfully",
+      "error": "❌ {message}"
+    }
+  },
+  "inventions": {
+    "hero": {
+      "title_highlight": "Innovative Inventions",
+      "title_rest": "in Motorcycle Electrical Parts",
+      "description": "Mihan Yadak Garmsar Company, with {count} registered inventions in the field of motorcycle electrical parts, is a pioneer in enhancing the performance and safety of vehicles.",
+      "features": [
+        {
+          "title": "Performance Improvement",
+          "desc": "Enhancing motorcycle performance"
+        },
+        {
+          "title": "Increased Safety",
+          "desc": "Advanced safety systems"
+        },
+        {
+          "title": "Energy Saving",
+          "desc": "Optimized power consumption"
+        },
+        {
+          "title": "Wide Application",
+          "desc": "Usable in various vehicles"
+        }
+      ],
+      "about_us": "About Us",
+      "contact_us": "Contact Us",
+      "registered_inventions": "{count} Registered Inventions"
+    },  
+    "title": "Inventions",
+    "content": "Inventions",
+    "registered_inventions": "Registered Inventions",
+    "view_inventions": "Take a look at the innovative inventions of Mihan Yadak Garmsar Company",
+    "click_to_view_larger": "Click to view larger",
+    "close": "Close",
+    "zoom_in": "Zoom In",
+    "zoom_out": "Zoom Out",
+    "reset": "Reset",
+    "gallery": [
+      {
+        "id": 1,
+        "image": "/images/inventions/invention-1.webp",
+        "title": "Manufacturing of Volume Transistor for CDI Motorcycles"
+      },
+      {
+        "id": 2,
+        "image": "/images/inventions/invention-2.webp",
+        "title": "Manufacturing of Dual Board Transistor for CDI 125 Motorcycles"
+      },
+      {
+        "id": 3,
+        "image": "/images/inventions/invention-3.webp",
+        "title": "Manufacturing of Waterproof Electric Coil for CDI Motorcycles"
+      },
+      {
+        "id": 4,
+        "image": "/images/inventions/invention-4.webp",
+        "title": "Manufacturing of Spare Electric Coil for 125 Motorcycles"
+      },
+      {
+        "id": 5,
+        "image": "/images/inventions/invention-5.webp",
+        "title": "Digital Device for Testing Electrical and Electronic Motorcycle Parts CDI"
+      },
+      {
+        "id": 6,
+        "image": "/images/inventions/invention-6.webp",
+        "title": "Eight-Coil Wire Clamp for CDI Motorcycles"
+      },
+      {
+        "id": 7,
+        "image": "/images/inventions/invention-7.webp",
+        "title": "Fused and Volume Regulator and Charger for CDI 125 Motorcycles"
+      },
+      {
+        "id": 8,
+        "image": "/images/inventions/invention-8.webp",
+        "title": "Sliding Eight-Coil in Oil for CDI 125 Motorcycles"
+      },
+      {
+        "id": 9,
+        "image": "/images/inventions/invention-9.webp",
+        "title": "Electric Coil Holder Base for CDI Motorcycles"
+      }
+    ]
+  }
+}

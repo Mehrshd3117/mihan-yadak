@@ -1,0 +1,51 @@
+the great seo 
+the great perfomance 
+rendering methods :{
+    ssg => getStaticProps
+    ssr => server side rendering
+    csr => not recommended
+}
+bilingual
+app.js fo react query
+{ino dar nazar begir ke roye domain raftim bayad avazesh konam paiini ro ba domain asli } toye env bzar
+Image optimaziation 
+Josn-LD for seo
+commenting 
+console error handling 
+
+------------------------------------------
+alias handling
+perfomance:
+main page :{
+    1-hero done .
+    2-amazing feature done .
+    3-trending products done .
+    4-company profile done.
+    5-faq done .
+    6-partner section done .
+    7-CustomerReviews done .
+    8-home inventions done .
+    9-processSteps done.
+}
+about page:{
+    1-hero done
+    2-video done 
+    3-image gallery done .
+    4-collabration  done .
+}
+layout:{
+    1-scroll progress done .
+    2-scroll to top btn done .
+    3-header done .
+    4-footer
+}
+
+invention:{
+    1-hero done.
+    2-imageGallery done.
+}
+contatc us page :{
+    1-hero done . 
+    2-imageGallery done .
+}
+axios handling.

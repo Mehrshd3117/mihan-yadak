@@ -1,0 +1,101 @@
+/* global css styles   */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+  font-family: "Vazir", sans-serif;
+}
+
+/* swiper styles */
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.swiper-slide-active {
+  transform: scale(1.05) translateZ(20px);
+}
+
+.swiper-slide-next,
+.swiper-slide-prev {
+  opacity: 0.8;
+}
+
+/* Customize navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #133769;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Customize pagination */
+.swiper-pagination-bullet {
+  background-color: #4b5563;
+  opacity: 0.5;
+  width: 10px;
+  height: 10px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #1f2937;
+  opacity: 1;
+}
+
+/* font faces  */
+
+@font-face {
+  font-family: "IranNastaliq";
+  src: url("/fonts/IranNastaliq.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url("/fonts/Vazir-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DimaYekanBold';
+  src: url("/fonts/DimaYekanWebBold.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* hide header class  */
+.hide-header header {
+  display: none !important;
+}
