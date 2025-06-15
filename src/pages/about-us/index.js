@@ -22,7 +22,7 @@ const AboutUsPage = ({
                 keywords={keywordsHero}
                 description={descriptionHero}
             />
-            <VideoSection/>
+            {/* <VideoSection/> */}
             <ImageGalleryAboutUs
                 imageGalleryTitle={imageGalleryTitle}
                 imageGallerySubTitle={imageGallerySubTitle}
