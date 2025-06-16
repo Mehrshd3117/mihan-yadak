@@ -641,5 +641,18 @@
         "title": "Electric Coil Holder Base for CDI Motorcycles"
       }
     ]
+  },
+  "header-p": {
+    "product_list": "Product List",
+    "search_placeholder": "Search...",
+    "no_results": "No products found",
+    "suggestions": "Suggestions",
+    "products": "Products",
+    "search_results": "Search Products"
+  },
+  "products": {
+    "click_to_view_details": "Click to view details",
+    "page_description": "Here you can view, search and filter all your products.",
+    "no_results_suggestion": "Please check your search term or try one of the suggestions below."
   }
 }

@@ -641,5 +641,19 @@
         "title": "پایه نگهدارنده بویین برق موتور سیکلت های CDI"
       }
     ]
+  },
+  
+  "header-p": {
+    "product_list": "لیست محصولات",
+    "search_placeholder": "جستجو...",
+    "no_results": "محصولی یافت نشد",
+    "suggestions": "پیشنهادات",
+    "products": "محصولات",
+    "search_results": "جستجوی محصول"
+  },
+  "products": {
+    "click_to_view_details": "برای مشاهده جزئیات کلیک کنید",
+    "page_description": "اینجا می‌تونی همهٔ محصولات خودت رو ببینی، جستجو و فیلتر کنی.",
+    "no_results_suggestion": "لطفاً عبارت را بررسی کنید یا از پیشنهادات زیر استفاده کنید."
   }
 }

@@ -211,7 +211,7 @@ const HeroSection = () => {
             </Link>
 
             <Link
-              href={locale === "en" ? "/en/contactUs" : "/contactUs"}
+              href={locale === "en" ? "/en/contact-us" : "/contact-us"}
               className="transition duration-300 font-semibold py-3 px-6 rounded-xl shadow-md text-base border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
             >
               {t("hero.button_contact")}
