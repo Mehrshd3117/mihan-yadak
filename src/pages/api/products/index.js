@@ -149,12 +149,11 @@ export default async function handler(req, res) {
       isTrending
     } = req.query;
 
-    // لاگ برای دیباگ
-    console.log("→ locale:", locale);
+
 
 
     const Model = locale === "en" ? ProductEn : ProductFa;
-    console.log("Mehrshadddddddddddd", Model.collection.name);
+ 
 
     // پایه کوئری
     const query = { isValid: true };
@@ -167,10 +166,10 @@ export default async function handler(req, res) {
       query.isTrending = true;
     }
 
-    console.log("→ Mongo query:", query);
+  
 
     let products = await Model.find(query).lean();
-    console.log("→ Found products count:", products.length);
+
 
     // فیلتر جستجو
     if (search.trim()) {
@@ -184,7 +183,6 @@ export default async function handler(req, res) {
         }
         return false;
       });
-      console.log("→ After search filter:", products.length);
     }
 
     return res.status(200).json(products);

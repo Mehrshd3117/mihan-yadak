@@ -19,19 +19,6 @@
     "contact": "Contact Us",
     "inventions": "Inventions"
   },
-  "category": {
-    "products": "All Products",
-    "boobins": "Types of Bobbins",
-    "electric-device": "Types of Electric Devices",
-    "transistor": "Types of Transistors",
-    "chargers": "Types of Chargers",
-    "pickups": "Types of Pickups",
-    "wirings": "Types of Wirings",
-    "connectors": "Types of Connectors",
-    "brushes": "Types of Brushes",
-    "autoGuide": "Types of Auto Guides",
-    "battery": "Electronic Battery Replacement"
-  },
   "hero": {
     "title_brand_part1": "Mihan Yadak",
     "title_brand_part2": "Garmsar",
@@ -75,17 +62,17 @@
     "title": "Trending Products",
     "qualityGuarantee": {
       "title": "Quality Guarantee",
-      "description": "All our products undergo strict quality control and meet high standards."
+      "description": "Our products are delivered with the best quality."
     },
     "packaging": {
-      "title": "Premium & Professional Packaging",
-      "description": "Your orders are packaged in the best possible way."
+      "title": "Secure Packaging",
+      "description": "Shipped with safe and fast packaging."
     },
     "badge": {
       "bestSeller": "Best Seller"
     },
     "detailsButton": "View Details",
-    "detailsButtonAria": "View details of {{title}}"
+    "detailsButtonAria": "View details of {title}"
   },
   "companyProfile": {
     "schemaName": "Mihan Yadak Garmsar Company",
@@ -654,5 +641,34 @@
     "click_to_view_details": "Click to view details",
     "page_description": "Here you can view, search and filter all your products.",
     "no_results_suggestion": "Please check your search term or try one of the suggestions below."
+  },
+  "navigation": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact Us",
+    "inventions": "Inventions"
+  },
+  "page": {
+    "product_list": "Product List",
+    "products_description": "Products page description"
+  },
+  "search": {
+    "placeholder": "Search...",
+    "no_results": "No results found",
+    "suggestions": "Suggestions",
+    "results": "Search Results",
+    "caps_lock_warning": "Caps Lock is on",
+    "offline_message": "You are offline. Please check your internet connection."
+  },
+  "loading": "Loading...",
+  "product": "Product",
+  "product_details": "Product Details",
+  "product_code": "Product Code",
+  "advices": "Recommendations",
+  "back_to_products": "Back to Products",
+  "related_products": "Related Products",
+  "errors": {
+    "related_products_fetch_failed": "Error loading related products"
   }
 }

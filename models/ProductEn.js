@@ -16,6 +16,7 @@ const AdviceEnSchema = new mongoose.Schema({
 const ProductEnSchema = new mongoose.Schema({
   productId: Number,
   slug: String,
+  slugFa: String,
   title: String,
   imgSrc: String,
   searchDesc: String,
@@ -24,9 +25,12 @@ const ProductEnSchema = new mongoose.Schema({
   isTrending: { type: Boolean, default: false },
   advices: [AdviceEnSchema],
   categorySlug: String,
+},
+{
+  collection: 'products-en', // مشخص کردن اسم کلکشن
 });
 
 
-const ProductEn = mongoose.models.ProductEn || mongoose.model("ProductEn", ProductEnSchema, "products-en");
+const ProductEn = mongoose.models.ProductEn || mongoose.model("ProductEn", ProductEnSchema);
 
 export default ProductEn;

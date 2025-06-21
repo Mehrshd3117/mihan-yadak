@@ -19,19 +19,6 @@
     "contact": "تماس با ما",
     "inventions": "اختراعات"
   },
-  "category": {
-    "products": "همه محصولات",
-    "boobins": "انواع بوبین",
-    "electric-device": "انواع دستگاه برق",
-    "transistor": "انواع ترانزیستور",
-    "chargers": "انواع شارژر",
-    "pickups": "انواع پیکاپ",
-    "wirings": "انواع سیم‌کشی",
-    "connectors": "انواع رابط",
-    "brushes": "انواع ذغالی‌ها",
-    "autoGuide": "انواع اتومات راهنما",
-    "battery": "جایگزین باطری (الکترونیکی)"
-  },
   "hero": {
     "title_brand_part1": "میهن یدک",
     "title_brand_part2": "گرمسار",
@@ -75,17 +62,17 @@
     "title": "محصولات پرفروش",
     "qualityGuarantee": {
       "title": "تضمین کیفیت",
-      "description": "تمام محصولات ما تحت کنترل کیفیت دقیق هستند و استانداردهای بالایی را رعایت می‌کنند."
+      "description": "محصولات ما با بهترین کیفیت ارائه می‌شوند."
     },
     "packaging": {
-      "title": "بسته‌بندی حرفه‌ای و با کیفیت",
-      "description": "سفارشات شما به بهترین شکل ممکن بسته‌بندی می‌شوند."
+      "title": "بسته‌بندی مطمئن",
+      "description": "ارسال با بسته‌بندی ایمن و سریع."
     },
     "badge": {
       "bestSeller": "پرفروش"
     },
-    "detailsButton": "مشاهده جزئیات",
-    "detailsButtonAria": "مشاهده جزئیات {{title}}"
+    "detailsButton": "مشاهده جزییات",
+    "detailsButtonAria": "مشاهده جزییات محصول {title}"
   },
   "companyProfile": {
     "schemaName": "شرکت میهن یدک گرمسار",
@@ -642,7 +629,6 @@
       }
     ]
   },
-  
   "header-p": {
     "product_list": "لیست محصولات",
     "search_placeholder": "جستجو...",
@@ -655,5 +641,34 @@
     "click_to_view_details": "برای مشاهده جزئیات کلیک کنید",
     "page_description": "اینجا می‌تونی همهٔ محصولات خودت رو ببینی، جستجو و فیلتر کنی.",
     "no_results_suggestion": "لطفاً عبارت را بررسی کنید یا از پیشنهادات زیر استفاده کنید."
+  },
+  "navigation": {
+    "home": "خانه",
+    "products": "محصولات",
+    "about": "درباره ما",
+    "contact": "تماس با ما",
+    "inventions": "اختراعات"
+  },
+  "page": {
+    "product_list": "لیست محصولات",
+    "products_description": "توضیحات صفحه محصولات"
+  },
+  "search": {
+    "placeholder": "جستجو...",
+    "no_results": "نتیجه‌ای یافت نشد",
+    "suggestions": "پیشنهادات",
+    "results": "نتایج جستجو",
+    "caps_lock_warning": "کلید Caps Lock روشن است",
+    "offline_message": "اتصال اینترنت شما قطع است. لطفاً اتصال خود را بررسی کنید."
+  },
+  "loading": "در حال بارگذاری...",
+  "product": "محصول",
+  "product_details": "جزئیات محصول",
+  "product_code": "کد محصول",
+  "advices": "توصیه‌ها",
+  "back_to_products": "بازگشت به لیست محصولات",
+  "related_products": "محصولات مرتبط",
+  "errors": {
+    "related_products_fetch_failed": "خطا در بارگذاری محصولات مرتبط"
   }
 }
