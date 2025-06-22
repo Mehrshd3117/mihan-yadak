@@ -68,8 +68,8 @@ import PartnersSection from "../components/PartnersSection";
 import CustomerReviews from "../components/CustomerReviews";
 import NestedFaq from "../components/ProcessSteps";
 import Invention from "../components/Invention";
-import { connectDB } from "../lib/mongodb";           // دقت کنید مسیر درست باشد
-import Product from "../models/Product";
+import { connectDB } from "../../lib/mongodb";           // دقت کنید مسیر درست باشد
+import Product from "../../models/Product";
 
 export async function getServerSideProps(context) {
   try {
