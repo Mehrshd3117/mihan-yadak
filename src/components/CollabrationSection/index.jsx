@@ -126,17 +126,17 @@
 //                     ))}
 //                 </div>
 //
-//                 <div className="mt-8 flex justify-center">
-//                     <Image
-//                         src="/Collaboration/collaboration.webp"
-//                         alt="لوگوی فنی و حرفه‌ای ایران"
-//                         width={400}
-//                         height={200}
-//                         className="object-contain"
-//                         priority={true} // preload چون تصویر اصلیه
-//                         loading="eager"
-//                     />
-//                 </div>
+// <div className="mt-8 flex justify-center">
+//     <Image
+//         src="/Collaboration/collaboration.webp"
+//         alt="لوگوی فنی و حرفه‌ای ایران"
+//         width={400}
+//         height={200}
+//         className="object-contain"
+//         priority={true} // preload چون تصویر اصلیه
+//         loading="eager"
+//     />
+// </div>
 //
 //                 <div className="mt-16">
 //                     <h3 className="text-2xl text-gray-900 dark:text-white font-bold mb-6">
@@ -289,8 +289,8 @@
 
 // components/CollaborationSection.jsx
 
-import {useState, useEffect, useCallback} from "react";
-import {useLocale} from "../../../lib/localeContext";
+import { useState, useEffect, useCallback } from "react";
+import { useLocale } from "../../../lib/localeContext";
 import {
     Briefcase,
     Award,
@@ -301,26 +301,26 @@ import {
     X,
 } from "lucide-react";
 import Image from "next/image";
-import {TransformWrapper, TransformComponent} from "react-zoom-pan-pinch";
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 const iconMap = {
-    Briefcase: <Briefcase className="w-8 h-8 text-orange-500 dark:text-orange-400"/>,
-    Award: <Award className="w-8 h-8 text-orange-500 dark:text-orange-400"/>,
-    Users: <Users className="w-8 h-8 text-orange-500 dark:text-orange-400"/>,
+    Briefcase: <Briefcase className="w-8 h-8 text-orange-500 dark:text-orange-400" />,
+    Award: <Award className="w-8 h-8 text-orange-500 dark:text-orange-400" />,
+    Users: <Users className="w-8 h-8 text-orange-500 dark:text-orange-400" />,
 };
 
 const CollaborationSection = () => {
-    const {t} = useLocale();
+    const { t } = useLocale();
     const {
         title,
         subTitle,
         features,
-        gallery: {hint, images, modal},
+        gallery: { hint, images, modal },
     } = t("collaboration");
 
     const [selectedIndex, setSelectedIndex] = useState(null);
 
-    const openModal = useCallback((index) => {
+    const openModal = useCallback((index) => {ب
         setSelectedIndex(index);
         document.body.style.overflow = "hidden";
     }, []);
@@ -370,7 +370,7 @@ const CollaborationSection = () => {
                 </p>
 
                 <div className="grid md:grid-cols-3 gap-8 mb-12">
-                    {features.map(({icon, title, description}, index) => (
+                    {features.map(({ icon, title, description }, index) => (
                         <div
                             key={index}
                             className="bg-white dark:bg-[#112240] p-6 rounded-2xl shadow-lg hover:shadow-orange-300/50 dark:hover:shadow-orange-400/40 transition-shadow"
@@ -387,14 +387,22 @@ const CollaborationSection = () => {
                         </div>
                     ))}
                 </div>
-
+                <div className="mt-8 flex justify-center">
+                    <Image
+                        src="/Collaboration/collaboration.webp"
+                        alt="لوگوی فنی و حرفه‌ای ایران"
+                        width={400}
+                        height={200}
+                        className="object-contain"
+                        priority={true} // preload چون تصویر اصلیه
+                        loading="eager"
+                    />
+                </div>
                 <div className="mt-16">
-                    <h3 className="text-2xl text-gray-900 dark:text-white font-bold mb-6">
-                        {modal.ariaLabel /* یا می‌توانید کلید جداگانه‌ای برای عنوان بخش مودال تعریف کنید */}
-                    </h3>
+            
 
                     <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
-                        {images.map(({src, alt}, index) => (
+                        {images.map(({ src, alt }, index) => (
                             <div
                                 key={index}
                                 className="relative group overflow-hidden rounded-xl border border-gray-300 dark:border-gray-700 hover:scale-105 transition-transform duration-300 cursor-pointer"
@@ -437,7 +445,6 @@ const CollaborationSection = () => {
                             onClick={closeModal}
                             role="dialog"
                             aria-modal="true"
-                            aria-label={modal.ariaLabel}
                         >
                             <div
                                 className="relative w-full h-full max-w-6xl max-h-[90vh] flex items-center justify-center overflow-hidden rounded-xl"
@@ -447,12 +454,12 @@ const CollaborationSection = () => {
                                     initialScale={1}
                                     minScale={0.5}
                                     maxScale={3}
-                                    wheel={{step: 50}}
-                                    doubleClick={{disabled: true}}
-                                    pinch={{step: 5}}
-                                    panning={{velocityDisabled: true}}
+                                    wheel={{ step: 50 }}
+                                    doubleClick={{ disabled: true }}
+                                    pinch={{ step: 5 }}
+                                    panning={{ velocityDisabled: true }}
                                 >
-                                    {({zoomIn, zoomOut, resetTransform}) => (
+                                    {({ zoomIn, zoomOut, resetTransform }) => (
                                         <>
                                             <TransformComponent
                                                 wrapperStyle={{
@@ -461,7 +468,7 @@ const CollaborationSection = () => {
                                                     alignItems: "center",
                                                     justifyContent: "center",
                                                 }}
-                                                contentStyle={{touchAction: "none"}}
+                                                contentStyle={{ touchAction: "none" }}
                                             >
                                                 <Image
                                                     src={selectedImage.src}
@@ -485,7 +492,7 @@ const CollaborationSection = () => {
                                                     }}
                                                     aria-label={modal.buttons.zoomIn}
                                                 >
-                                                    <ZoomIn className="w-5 h-5"/>
+                                                    <ZoomIn className="w-5 h-5" />
                                                 </button>
                                                 <button
                                                     type="button"
@@ -496,7 +503,7 @@ const CollaborationSection = () => {
                                                     }}
                                                     aria-label={modal.buttons.zoomOut}
                                                 >
-                                                    <ZoomOut className="w-5 h-5"/>
+                                                    <ZoomOut className="w-5 h-5" />
                                                 </button>
                                                 <button
                                                     type="button"
@@ -507,7 +514,7 @@ const CollaborationSection = () => {
                                                     }}
                                                     aria-label={modal.buttons.resetZoom}
                                                 >
-                                                    <RefreshCw className="w-5 h-5"/>
+                                                    <RefreshCw className="w-5 h-5" />
                                                 </button>
                                             </div>
                                         </>
@@ -523,7 +530,7 @@ const CollaborationSection = () => {
                                     }}
                                     aria-label={modal.buttons.close}
                                 >
-                                    <X className="w-6 h-6"/>
+                                    <X className="w-6 h-6" />
                                 </button>
                             </div>
                         </div>

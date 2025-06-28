@@ -90,10 +90,10 @@
 // components/ManagementTeam.jsx
 import React from "react";
 import Image from "next/image";
-import {useLocale} from "../../../lib/localeContext";
+import { useLocale } from "../../../lib/localeContext";
 
 const ManagementTeam = () => {
-    const {t} = useLocale();
+    const { t } = useLocale();
     const title = t("managementTeam.title");
     const description = t("managementTeam.description");
     const teamMembers = t("managementTeam.members") || [];
@@ -111,8 +111,8 @@ const ManagementTeam = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {teamMembers.map(({name, position, description, image}, i) => (
+                <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {teamMembers.map(({ name, position, description, image }, i) => (
                         <article
                             key={i}
                             className="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"

@@ -444,7 +444,6 @@
         }
       ],
       "modal": {
-        "ariaLabel": "View enlarged image",
         "buttons": {
           "zoomIn": "Zoom In",
           "zoomOut": "Zoom Out",

@@ -132,7 +132,7 @@ const VideoSection = memo(function VideoSection() {
         <div className="space-y-8">
           <div className="mb-10 group">
             <h2
-              className="text-3xl md:text-4xl text-center font-extrabold
+              className="font-DimaYekanBold text-3xl md:text-4xl text-center font-extrabold
                          text-orange-600 dark:text-orange-500 mb-4 drop-shadow-lg"
             >
               {t("video.title")}
